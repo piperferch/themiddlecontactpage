@@ -71,7 +71,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(3, 112, 12, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(88, 88, 88, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px white;
 }
@@ -84,14 +84,14 @@ html, body {
 }
 
 h1 {
-	font-family:ff-nexus-typewriter, sans-serif;
+	font-family:goudy-bookletter-1911, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	font-family:ff-nexus-typewriter, sans-serif;
+	font-family:goudy-bookletter-1911, serif;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -100,17 +100,17 @@ h2 {
 }
 
 p {
-	font-family:ff-nexus-typewriter, sans-serif;
+	font-family:goudy-bookletter-1911, serif;
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
 nav {
-		font-family: ff-nexus-typewriter, sans-serif;
+		font-family: goudy-bookletter-1911, serif;
 		font-size: 1.2em;
 		width: 400px;
 		margin: 0 auto;
-		border: dashed rgb(96, 133, 236);
+		border: rgb(96, 133, 236);
 		border-width: 3px 0;
 		text-align: center;
 		margin-top: 2em;
