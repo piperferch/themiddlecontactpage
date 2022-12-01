@@ -65,27 +65,34 @@ html, body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  text-align: center;  /*aligns logo outside center div*/
 }
 
 .center {
-    width: 800px;
-	padding: 5%;
+    width: 60%;            /*responsiveness*/
+	min-width: 400px;
+	padding: 3%;
     margin: 100px auto;
- 	background: rgba(88, 88, 88, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(88, 88, 88, 0.65); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px white;
+	border: 8px solid rgb(179, 86, 57, 0.65);
 }
 
    
 #logo {
-    margin-bottom: 5px;
-	margin-right: 5px;
-	border: 3px dashed rgb(145, 91, 59);
+    width: 30%;
+	max-width: 500px;      /*responsiveness and size control*/
+	min-width: 300px;
+	margin-top: 100px;
+	margin-bottom: 0px;     /*margin from .center*/
+	padding: 7px;
+	border: 0px solid rgb(102, 131, 100);
 	text-align: center;
 }
 
 h1 {
 	font-family:goudy-bookletter-1911, serif;
+	font-weight: bold;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
@@ -95,7 +102,7 @@ h2 {
 	font-family:goudy-bookletter-1911, serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(206, 206, 206);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -109,7 +116,7 @@ p {
 nav {
 		font-family: goudy-bookletter-1911, serif;
 		font-size: 1.2em;
-		width: 400px;
+		width: 50%;     /*width percentages for responsiveness*/
 		margin: 0 auto;
 		border: rgb(96, 133, 236);
 		border-width: 3px 0;
@@ -122,12 +129,12 @@ nav li{
 }
 
 a{
-	color: black;
+	color: rgb(159, 209, 241);
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover{
-	color: black;
-	background: white
+	color: rgb(159, 209, 241);
+	background: rgba(90, 131, 86, 0.75)
 }
